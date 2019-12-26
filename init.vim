@@ -18,6 +18,9 @@ set wildmenu
 set ignorecase
 set smartcase
 
+" guarantee 10 lines above and below cursor
+set scrolloff=10
+
 " plugins ----------------------------------------------------------------------
 call plug#begin('~/.config/nvim/plugged')
    Plug 'neoclide/coc.nvim', {'branch': 'release'}
