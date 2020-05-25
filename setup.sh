@@ -15,7 +15,7 @@ rm -f ./nvim.appimage
 echo "setting up nvim"
 mkdir -p ~/.config/nvim/      # -p option to create subdirectories if none exist
 cp init.vim ~/.config/nvim/
-ln ~/.config/nvim ~/.vimrc
+ln ~/.config/nvim/init.vim ~/.vimrc
 
 # copy relivant dotfiles
 cp ./bash_aliases ~/.bash_aliases
