@@ -25,4 +25,4 @@ mkcdir ()
 # export function `mkcdir` as a command line executable
 export -f mkcdir
 
-alias findSrc="find ${PWD} -type f -regex \".*\.\(c\|h\|hpp\|cpp\|cc\|hh)$\""
+alias findSrc="find $PWD -type f -regex \".*\.\(c\|h\|hpp\|cpp\|cc\|hh\)$\""
